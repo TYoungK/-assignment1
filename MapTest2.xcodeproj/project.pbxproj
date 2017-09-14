@@ -12,6 +12,10 @@
 		E5F2FFA51F6A17520065EF93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F2FFA31F6A17520065EF93 /* Main.storyboard */; };
 		E5F2FFA71F6A17520065EF93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F2FFA61F6A17520065EF93 /* Assets.xcassets */; };
 		E5F2FFAA1F6A17520065EF93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F2FFA81F6A17520065EF93 /* LaunchScreen.storyboard */; };
+		E5F2FFB21F6A1F990065EF93 /* ViewPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F2FFB11F6A1F990065EF93 /* ViewPoint.swift */; };
+		E5F2FFB41F6A22250065EF93 /* bright-7.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F2FFB31F6A22250065EF93 /* bright-7.png */; };
+		E5F2FFB61F6A222A0065EF93 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E5F2FFB51F6A222A0065EF93 /* 1.jpeg */; };
+		E5F2FFB81F6A228B0065EF93 /* zenos.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E5F2FFB71F6A228B0065EF93 /* zenos.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E5F2FFA61F6A17520065EF93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5F2FFA91F6A17520065EF93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5F2FFAB1F6A17520065EF93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F2FFB11F6A1F990065EF93 /* ViewPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPoint.swift; sourceTree = "<group>"; };
+		E5F2FFB31F6A22250065EF93 /* bright-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bright-7.png"; path = "../../../Desktop/bright-7.png"; sourceTree = "<group>"; };
+		E5F2FFB51F6A222A0065EF93 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpeg; path = ../../../Desktop/1.jpeg; sourceTree = "<group>"; };
+		E5F2FFB71F6A228B0065EF93 /* zenos.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zenos.jpeg; path = ../../../Desktop/zenos.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				E5F2FF9F1F6A17520065EF93 /* AppDelegate.swift */,
+				E5F2FFB71F6A228B0065EF93 /* zenos.jpeg */,
+				E5F2FFB51F6A222A0065EF93 /* 1.jpeg */,
+				E5F2FFB31F6A22250065EF93 /* bright-7.png */,
 				E5F2FFA11F6A17520065EF93 /* ViewController.swift */,
 				E5F2FFA31F6A17520065EF93 /* Main.storyboard */,
+				E5F2FFB11F6A1F990065EF93 /* ViewPoint.swift */,
 				E5F2FFA61F6A17520065EF93 /* Assets.xcassets */,
 				E5F2FFA81F6A17520065EF93 /* LaunchScreen.storyboard */,
 				E5F2FFAB1F6A17520065EF93 /* Info.plist */,
@@ -123,9 +135,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5F2FFB61F6A222A0065EF93 /* 1.jpeg in Resources */,
+				E5F2FFB81F6A228B0065EF93 /* zenos.jpeg in Resources */,
 				E5F2FFAA1F6A17520065EF93 /* LaunchScreen.storyboard in Resources */,
 				E5F2FFA71F6A17520065EF93 /* Assets.xcassets in Resources */,
 				E5F2FFA51F6A17520065EF93 /* Main.storyboard in Resources */,
+				E5F2FFB41F6A22250065EF93 /* bright-7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5F2FFA21F6A17520065EF93 /* ViewController.swift in Sources */,
+				E5F2FFB21F6A1F990065EF93 /* ViewPoint.swift in Sources */,
 				E5F2FFA01F6A17520065EF93 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
